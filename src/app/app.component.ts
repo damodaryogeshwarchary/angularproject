@@ -57,6 +57,10 @@ export class AppComponent implements OnInit, OnChanges, AfterContentInit, AfterC
   
   acd: any[] = [9,8,7,6,5,4,3];
   dcd: any[] = [1,2,3,4,5,6,7,8];
+
+  hl: number = 200;
+
+  // hiorlo: string = "is lower";
 }
 
   

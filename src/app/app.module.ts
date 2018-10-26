@@ -8,6 +8,7 @@ import { SuccessMessageComponent } from './success-message/success-message.compo
 import { WarningMessageComponent } from './warning-message/warning-message.component';
 import { PipesPipe } from './pipes.pipe';
 import { DescendPipe } from './descend.pipe';
+import { HorlPipe } from './horl.pipe';
 
 
 
@@ -20,6 +21,7 @@ import { DescendPipe } from './descend.pipe';
     WarningMessageComponent,
     PipesPipe,
     DescendPipe,
+    HorlPipe,
   ],
   imports: [
     BrowserModule,
